@@ -60,7 +60,9 @@ class _MyHomePageState extends State<MyHomePage> {
             initialUrlRequest: URLRequest(
                 url: Uri.parse(
                     "https://www.universalblogging.com/")), //https://techanzy.com/
-
+            // onWebViewCreated: (InAppWebViewController controller {
+            //   inAppWebViewController = controller;
+            // }),
             onProgressChanged:
                 (InAppWebViewController controller, int progress) =>
                     {progress = (progress / 100) as int},
