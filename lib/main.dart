@@ -9,7 +9,6 @@ void main() {
   // } else if (Platform.isIOS) {
   //   WebView.platform = CupertinoWebView();
   // }
-
   runApp(const MyApp());
 }
 
