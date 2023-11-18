@@ -3,11 +3,12 @@ import 'package:flutter/material.dart';
 import 'package:flutter_inappwebview/flutter_inappwebview.dart';
 
 void main() {
-
-
-
-
-
+  // Make sure to set the WebView.platform for Android and iOS
+  // if (Platform.isAndroid) {
+  //   WebViewController.fromPlatform() = AndroidWebView();
+  // } else if (Platform.isIOS) {
+  //   WebView.platform = CupertinoWebView();
+  // }
 
   runApp(const MyApp());
 }
