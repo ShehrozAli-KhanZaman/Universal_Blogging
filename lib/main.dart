@@ -23,7 +23,6 @@ class MyApp extends StatelessWidget {
     );
   }
 }
-//comment by ali
 
 class MyHomePage extends StatefulWidget {
   const MyHomePage({super.key, required this.title});
@@ -46,7 +45,7 @@ class _MyHomePageState extends State<MyHomePage> {
           'Universal Blogging',
           style: TextStyle(color: Colors.white),
         ),
-        backgroundColor: const Color.fromARGB(255, 13, 2, 49),
+        backgroundColor: const Color.fromARGB(255, 13, 1, 49),
       ),
       body: Stack(
         children: [
